@@ -223,7 +223,6 @@ class TestKauppa(unittest.TestCase):
 
         viitegen_mock = Mock(wraps=Viitegeneraattori())
         
-
         # alustetaan kauppa
         kauppa = Kauppa(self.varasto_mock, self.pankki_mock, viitegen_mock)
 
