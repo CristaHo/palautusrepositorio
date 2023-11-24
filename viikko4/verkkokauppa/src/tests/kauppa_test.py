@@ -263,7 +263,6 @@ class TestKauppa(unittest.TestCase):
             if tuote_id == 2:
                 return Tuote(2, "mehu", 4)
             
-
         # otetaan toteutukset käyttöön
         self.varasto_mock.saldo.side_effect = varasto_saldo
         self.varasto_mock.hae_tuote.side_effect = varasto_hae_tuote
